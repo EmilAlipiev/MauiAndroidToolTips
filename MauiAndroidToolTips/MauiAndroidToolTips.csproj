@@ -5,9 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Title>MauiAndroidToolTips</Title>
+    <Title>MauiAndroid.ToolTips</Title>
+    <PackageId>MauiAndroid.ToolTips</PackageId>
     <Description>Tooltips and custom hover popup for Maui.Android projects</Description>
     <Copyright>Emil Alipiev</Copyright>
+    <Authors>Emil Alipiev</Authors>
     <PackageProjectUrl>https://github.com/EmilAlipiev/MauiAndroidToolTips</PackageProjectUrl>
     <RepositoryUrl>https://github.com/EmilAlipiev/MauiAndroidToolTips</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -15,7 +17,7 @@
     <PackageReleaseNotes>first version for Maui Android</PackageReleaseNotes>
     <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">s
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
