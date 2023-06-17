@@ -13,8 +13,9 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Maui, Maui.Android, ToolTips, ToolTip, Popup, Hover</PackageTags>
     <PackageReleaseNotes>first version for Maui Android</PackageReleaseNotes>
+    <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">s
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
