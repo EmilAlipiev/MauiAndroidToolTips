@@ -1,0 +1,279 @@
+<api api-source="JavaTypeSystem">
+  <package name="android.support.v4.view" jni-name="android/support/v4/view">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="ViewTreeObserverCompat" static="false" visibility="public" jni-signature="Landroid/support/v4/view/ViewTreeObserverCompat;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeOnGlobalLayoutListener" jni-signature="(Landroid/view/ViewTreeObserver;Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="viewTreeObserver" type="android.view.ViewTreeObserver" jni-type="Landroid/view/ViewTreeObserver;" />
+        <parameter name="victim" type="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.view.ViewTreeObserverCompat.ViewTreeObserverCompatBaseImpl" extends-generic-aware="android.support.v4.view.ViewTreeObserverCompat.ViewTreeObserverCompatBaseImpl" jni-extends="Landroid/support/v4/view/ViewTreeObserverCompat$ViewTreeObserverCompatBaseImpl;" final="false" name="ViewTreeObserverCompat.ViewTreeObserverCompatApi16Impl" static="true" visibility="" jni-signature="Landroid/support/v4/view/ViewTreeObserverCompat$ViewTreeObserverCompatApi16Impl;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeOnGlobalLayoutListener" jni-signature="(Landroid/view/ViewTreeObserver;Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="viewTreeObserver" type="android.view.ViewTreeObserver" jni-type="Landroid/view/ViewTreeObserver;" />
+        <parameter name="victim" type="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ViewTreeObserverCompat.ViewTreeObserverCompatBaseImpl" static="true" visibility="" jni-signature="Landroid/support/v4/view/ViewTreeObserverCompat$ViewTreeObserverCompatBaseImpl;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeOnGlobalLayoutListener" jni-signature="(Landroid/view/ViewTreeObserver;Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="viewTreeObserver" type="android.view.ViewTreeObserver" jni-type="Landroid/view/ViewTreeObserver;" />
+        <parameter name="victim" type="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      </method>
+    </class>
+  </package>
+  <package name="com.tooltip" jni-name="com/tooltip">
+    <class abstract="false" deprecated="not deprecated" extends="android.graphics.drawable.ColorDrawable" extends-generic-aware="android.graphics.drawable.ColorDrawable" jni-extends="Landroid/graphics/drawable/ColorDrawable;" final="true" name="ArrowDrawable" static="false" visibility="" jni-signature="Lcom/tooltip/ArrowDrawable;" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/tooltip/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.tooltip.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.tooltip&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;0.2.0&quot;" visibility="public" volatile="false" />
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnClickListener" static="false" visibility="public" jni-signature="Lcom/tooltip/OnClickListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onClick" jni-signature="(Lcom/tooltip/Tooltip;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.tooltip.Tooltip" jni-type="Lcom/tooltip/Tooltip;" not-null="true" />
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnDismissListener" static="false" visibility="public" jni-signature="Lcom/tooltip/OnDismissListener;">
+      <implements name="android.widget.PopupWindow.OnDismissListener" name-generic-aware="android.widget.PopupWindow.OnDismissListener" jni-type="Landroid/widget/PopupWindow$OnDismissListener;" />
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnLongClickListener" static="false" visibility="public" jni-signature="Lcom/tooltip/OnLongClickListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onLongClick" jni-signature="(Lcom/tooltip/Tooltip;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.tooltip.Tooltip" jni-type="Lcom/tooltip/Tooltip;" not-null="true" />
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Tooltip" static="false" visibility="public" jni-signature="Lcom/tooltip/Tooltip;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="dismiss" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isShowing" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnClickListener" jni-signature="(Lcom/tooltip/OnClickListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.tooltip.OnClickListener" jni-type="Lcom/tooltip/OnClickListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnDismissListener" jni-signature="(Lcom/tooltip/OnDismissListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.tooltip.OnDismissListener" jni-type="Lcom/tooltip/OnDismissListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnLongClickListener" jni-signature="(Lcom/tooltip/OnLongClickListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.tooltip.OnLongClickListener" jni-type="Lcom/tooltip/OnLongClickListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.1" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$1;">
+      <implements name="android.widget.PopupWindow.OnDismissListener" name-generic-aware="android.widget.PopupWindow.OnDismissListener" jni-type="Landroid/widget/PopupWindow$OnDismissListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDismiss" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.2" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$2;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.3" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$3;">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener" jni-type="Landroid/view/View$OnClickListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.4" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$4;">
+      <implements name="android.view.View.OnLongClickListener" name-generic-aware="android.view.View.OnLongClickListener" jni-type="Landroid/view/View$OnLongClickListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLongClick" jni-signature="(Landroid/view/View;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.5" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$5;">
+      <implements name="android.view.ViewTreeObserver.OnGlobalLayoutListener" name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onGlobalLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.6" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$6;">
+      <implements name="android.view.ViewTreeObserver.OnGlobalLayoutListener" name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener" jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onGlobalLayout" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.7" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$7;">
+      <implements name="android.view.ViewTreeObserver.OnScrollChangedListener" name-generic-aware="android.view.ViewTreeObserver.OnScrollChangedListener" jni-type="Landroid/view/ViewTreeObserver$OnScrollChangedListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onScrollChanged" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tooltip.8" static="false" visibility="" jni-signature="Lcom/tooltip/Tooltip$8;">
+      <implements name="android.view.View.OnAttachStateChangeListener" name-generic-aware="android.view.View.OnAttachStateChangeListener" jni-type="Landroid/view/View$OnAttachStateChangeListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onViewAttachedToWindow" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onViewDetachedFromWindow" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Tooltip.Builder" static="true" visibility="public" jni-signature="Lcom/tooltip/Tooltip$Builder;">
+      <constructor deprecated="not deprecated" final="false" name="Tooltip.Builder" jni-signature="(Landroid/view/MenuItem;)V" bridge="false" static="false" type="com.tooltip.Tooltip.Builder" synthetic="false" visibility="public">
+        <parameter name="anchorMenuItem" type="android.view.MenuItem" jni-type="Landroid/view/MenuItem;" not-null="true" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Tooltip.Builder" jni-signature="(Landroid/view/MenuItem;I)V" bridge="false" static="false" type="com.tooltip.Tooltip.Builder" synthetic="false" visibility="public">
+        <parameter name="anchorMenuItem" type="android.view.MenuItem" jni-type="Landroid/view/MenuItem;" not-null="true" />
+        <parameter name="resId" type="int" jni-type="I" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Tooltip.Builder" jni-signature="(Landroid/view/View;)V" bridge="false" static="false" type="com.tooltip.Tooltip.Builder" synthetic="false" visibility="public">
+        <parameter name="anchorView" type="android.view.View" jni-type="Landroid/view/View;" not-null="true" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Tooltip.Builder" jni-signature="(Landroid/view/View;I)V" bridge="false" static="false" type="com.tooltip.Tooltip.Builder" synthetic="false" visibility="public">
+        <parameter name="anchorView" type="android.view.View" jni-type="Landroid/view/View;" not-null="true" />
+        <parameter name="resId" type="int" jni-type="I" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="build" jni-signature="()Lcom/tooltip/Tooltip;" bridge="false" native="false" return="com.tooltip.Tooltip" jni-return="Lcom/tooltip/Tooltip;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrow" jni-signature="(Landroid/graphics/drawable/Drawable;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="arrowDrawable" type="android.graphics.drawable.Drawable" jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrow" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrowEnabled" jni-signature="(Z)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="isArrowEnabled" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrowHeight" jni-signature="(F)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="height" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrowHeight" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrowWidth" jni-signature="(F)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="width" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setArrowWidth" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setBackgroundColor" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCancelable" jni-signature="(Z)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="cancelable" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCornerRadius" jni-signature="(F)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="radius" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCornerRadius" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDismissOnClick" jni-signature="(Z)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="isDismissOnClick" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableBottom" jni-signature="(Landroid/graphics/drawable/Drawable;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawable" type="android.graphics.drawable.Drawable" jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableBottom" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableEnd" jni-signature="(Landroid/graphics/drawable/Drawable;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawable" type="android.graphics.drawable.Drawable" jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableEnd" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawablePadding" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="padding" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableStart" jni-signature="(Landroid/graphics/drawable/Drawable;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawable" type="android.graphics.drawable.Drawable" jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableStart" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableTop" jni-signature="(Landroid/graphics/drawable/Drawable;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawable" type="android.graphics.drawable.Drawable" jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawableTop" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setGravity" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="gravity" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLineSpacing" jni-signature="(FF)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="add" type="float" jni-type="F" />
+        <parameter name="mult" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLineSpacing" jni-signature="(IF)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="addResId" type="int" jni-type="I" />
+        <parameter name="mult" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMargin" jni-signature="(F)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="margin" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMargin" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaxWidth" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="maxWidth" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnClickListener" jni-signature="(Lcom/tooltip/OnClickListener;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.tooltip.OnClickListener" jni-type="Lcom/tooltip/OnClickListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnDismissListener" jni-signature="(Lcom/tooltip/OnDismissListener;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.tooltip.OnDismissListener" jni-type="Lcom/tooltip/OnDismissListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnLongClickListener" jni-signature="(Lcom/tooltip/OnLongClickListener;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.tooltip.OnLongClickListener" jni-type="Lcom/tooltip/OnLongClickListener;" />
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="setPadding" jni-signature="(F)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="padding" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPadding" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="padding" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setText" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setText" jni-signature="(Ljava/lang/CharSequence;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.CharSequence" jni-type="Ljava/lang/CharSequence;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextAppearance" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextColor" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextSize" jni-signature="(F)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="size" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextSize" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextStyle" jni-signature="(I)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="style" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTypeface" jni-signature="(Landroid/graphics/Typeface;)Lcom/tooltip/Tooltip$Builder;" bridge="false" native="false" return="com.tooltip.Tooltip.Builder" jni-return="Lcom/tooltip/Tooltip$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="typeface" type="android.graphics.Typeface" jni-type="Landroid/graphics/Typeface;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" jni-signature="()Lcom/tooltip/Tooltip;" bridge="false" native="false" return="com.tooltip.Tooltip" jni-return="Lcom/tooltip/Tooltip;" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" jni-extends="Landroid/widget/FrameLayout;" final="false" name="TooltipActionView" static="false" visibility="public" jni-signature="Lcom/tooltip/TooltipActionView;">
+      <constructor deprecated="not deprecated" final="false" name="TooltipActionView" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.tooltip.TooltipActionView" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TooltipActionView" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" bridge="false" static="false" type="com.tooltip.TooltipActionView" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TooltipActionView" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" bridge="false" static="false" type="com.tooltip.TooltipActionView" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+        <parameter name="defStyleAttr" type="int" jni-type="I" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMenuItem" jni-signature="()Landroid/view/MenuItem;" bridge="false" native="false" return="android.view.MenuItem" jni-return="Landroid/view/MenuItem;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuItem" jni-signature="(Landroid/view/MenuItem;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="menuItem" type="android.view.MenuItem" jni-type="Landroid/view/MenuItem;" not-null="true" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnMenuItemClick" jni-signature="(Landroid/view/MenuItem$OnMenuItemClickListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="l" type="android.view.MenuItem.OnMenuItemClickListener" jni-type="Landroid/view/MenuItem$OnMenuItemClickListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setVisible" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="visible" type="boolean" jni-type="Z" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Utils" static="false" visibility="" jni-signature="Lcom/tooltip/Utils;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="calculateRectInWindow" jni-signature="(Landroid/view/View;)Landroid/graphics/RectF;" bridge="false" native="false" return="android.graphics.RectF" jni-return="Landroid/graphics/RectF;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="view" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="calculateRectOnScreen" jni-signature="(Landroid/view/View;)Landroid/graphics/RectF;" bridge="false" native="false" return="android.graphics.RectF" jni-return="Landroid/graphics/RectF;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="view" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dpToPx" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="dp" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pxToDp" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="px" type="float" jni-type="F" />
+      </method>
+    </class>
+  </package>
+</api>
