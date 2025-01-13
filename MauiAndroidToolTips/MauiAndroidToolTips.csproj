@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -14,17 +14,16 @@
     <RepositoryUrl>https://github.com/EmilAlipiev/MauiAndroidToolTips</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Maui, Maui.Android, ToolTips, ToolTip, Popup, Hover</PackageTags>
-    <PackageReleaseNotes>first version for Maui Android</PackageReleaseNotes>
+    <PackageReleaseNotes>Using newest Tooltip library</PackageReleaseNotes>
     <IncludeSymbols>True</IncludeSymbols>
     <PackageLicenseUrl>https://github.com/EmilAlipiev/MauiAndroidToolTips</PackageLicenseUrl>
+    <LangVersion>default</LangVersion>
+    <Version>2.0.0</Version>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\Tooltip.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidLibrary Include="Jars\Tooltip.aar" />
   </ItemGroup>
 </Project>
